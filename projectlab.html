@@ -1,0 +1,167 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * { 
+    box-sizing: border-box;
+    }
+    body {margin: 0;}
+    .header {
+    padding: 10px;
+    text-align: center;
+    background:rgb(18, 215, 18);
+    color: black;
+    }
+    .navbar {
+    overflow: hidden;
+    background-color: dimgrey;
+    }
+    .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    }
+    .navbar a.right {
+    float: right;
+    }
+    .navbar a:hover{
+    background-color: #eee;
+    color: black;
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .sidebar {
+    flex: 10%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    }
+    .main {
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+    background-image:url('C:\Users\SANDY\Downloads\plant.jpeg');
+    background-repeat: no-repeat;
+    }
+    .logoimg {
+    height:10%;
+    float:left;
+    }
+
+    .form{
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8));
+        position: absolute;
+        top: -20px;
+        left: 870px;
+        border-radius: 10px;
+        pad: 25px;
+        }
+
+        .loginbox p{
+           margin: 0;
+           padding: 0;
+           font-weight: bold;
+
+        }
+        .loginbox input{
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+        .loginbox input[type="text"],input[type="password"]{
+            border: none;
+            border-bottom: transparent;
+            background: transparent;
+            outline: none;
+            height:40px ;
+            color: #fff;
+            font-size: 16px;
+        }
+        .loginbox input[type="submit"]{
+            border: none;
+            outline: none;
+            height: 48px;
+            background: #fb2525;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+
+        }
+        .loginbox input[type="submit"]:hover{
+            cursor:pointer;
+            background: #ffc107;
+            color:#000
+        }
+        .loginbox a{
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: darkgray;
+        }
+        .loginbox a:hover{
+            color: #ffc107;
+            
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-image: url('https://th.bing.com/th/id/OIP.Vw8w0YryId19vjQmW9uepQHaHa?w=205&h=206&c=7&r=0&o=5&dpr=1.1&pid=1.71==-0');">
+    <div class="header">
+    <h1><i>Welcome to Home Gardening</i></h1>
+    </div>
+    <div class="navbar">
+    <a href="home.html"><b>HOME</b></a>
+    <a href="tips.html"><b>TIPS</b></a>
+    <a href="fertilizers.html"><b>FERETILIZERS</b></a>
+    <a href="essentials.html"><b>ESSENTIAL</b></a>
+    <a href="designs.html"><b>Design</b></a>
+    <div class="loginbox">
+        <img scr="avatar.jpeg" class="avatar">
+        <h1>LOGIN IN HERE</h1>
+        <form class="connect.php" method="post">
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" name="firstname">
+            <p>Password</p>
+            <input type="password" name="secondname" placeholder="Enter Password" >
+            <input type="submit" name="thirdname" value="Login">
+            <a href="#">Lost your Password?</a><br>
+            <a href="#">Don't have an account?</a>
+        </form>
+    </div>
+    </div>
+    <div class="row">
+    <div class="sidebar">
+    <h2>Contact US</h2>
+    <div><img src="C:\Users\SANDY\Downloads\phone.jpeg" style="height:100px;"></div>
+    <h2>Reviews</h2>
+    <div ><img src="C:\Users\SANDY\Downloads\review.jpeg" style="height:100px;"></div>
+    </div>
+    <div class="main">
+    <h2>HOME GARDENING</h2>
+    <p>Home gardening involves growing fruit, vegetables and herbs for personal consumption, as well as creating aesthetics and diversity for bird and insect life with attractive flower beds. Home gardening requires gardening knowledge, ongoing nurturing of plants, maintenance skills, and consistent improvement.... </p>
+    <br>
+    <div class="row">
+    <div class="sidebar">
+    <h2><u>IDEAS</u></h2>
+    <a href="https://www.educba.com/finance/">.........</a><br>
+    <a href="https://www.educba.com/marketing/">..........</a><br>
+    <a href="https://www.educba.com/human-resource/">...........</a><br>
+    <a href="https://www.educba.com/design/">.............</a> <br>
+    <a href="https://www.educba.com/excel/">............</a>
+    </div>
+    <div class="sidebar">
+    <h2><u>..........</u></h2>
+    <a href="https://www.educba.com/data-science/courses/free-data-science-course/">.........</a><br>
+    <a href="https://www.educba.com/design/courses/free-graphic-design-online-course/">..........</a><br>
+    <a href="https://www.educba.com/excel/courses/free-online-excel-course/">..........</a><br>
+    <a href="https://www.educba.com/marketing/courses/free-digital-marketing-course/">..........</a><br>
+    <a href="https://www.educba.com/software-development/courses/free-programming-course/">............</a>
+    </div></div></div></div>
+    </body>
+    </html>
